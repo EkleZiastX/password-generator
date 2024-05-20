@@ -32,9 +32,17 @@ A simple C++ console application to generate random passwords, select your favor
 4. Settings
 5. Exit
 
-## Example Usage 🎲
+## Library 🎲
 ```
+<iostream>: This library provides functionality for basic input and output operations in C++, allowing users to interact with the standard input/output streams such as cin, cout, cerr, and clog.
 
+<random>: The <random> library is utilized for generating pseudo-random numbers in C++, offering various generators, distributions, and utilities for tasks requiring randomness, such as simulations, gaming, and cryptography.
+
+<string>: In C++, the <string> library enables efficient manipulation and handling of text strings, offering a rich set of functions for concatenation, comparison, searching, and modification of string objects.
+
+<vector>: This library implements dynamic arrays, known as vectors, in C++, providing dynamic resizing, efficient element access, and a range of utility functions, making it a versatile container for storing and manipulating sequences of elements.
+
+<fstream>: The <fstream> library facilitates file input/output operations in C++, offering classes such as ifstream for reading from files, ofstream for writing to files, and fstream for both reading and writing, enabling seamless interaction with external files in various applications.
 ```
 
 ## Credits 🌟
