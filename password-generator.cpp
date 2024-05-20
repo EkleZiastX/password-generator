@@ -48,7 +48,7 @@ void saveSelectedPasswords(const vector<string>& passwords) {
         cin >> login;
         cout << "Enter purpose for password " << passwords[index] << ": ";
         cin >> purpose;
-        outfile << "Password: " << passwords[index] << ", Login: " << login << ", Purpose: " << purpose << endl;
+        outfile <<  "\n Login: " << login << "\n Purpose: " << purpose << "\nPassword: " << passwords[index] << endl;
     }
     outfile.close();
     cout << "Selected passwords saved to passwords.txt" << endl;
